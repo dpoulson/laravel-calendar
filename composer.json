@@ -1,12 +1,12 @@
 {
-    "name": "acaronlex/laravel-calendar",
+    "name": "dpoulson/laravel-calendar",
     "description": "Laravel helper for FullCalendar.io",
     "license": "MIT",
     "type": "package",
     "authors": [
         {
-            "name": "acaronlex",
-            "email": "acaronlex@outlook.com"
+            "name": "dpoulson",
+            "email": "darren.poulson@gmail.com"
         }
     ],
     "require": {
@@ -15,16 +15,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Acaronlex\\LaravelCalendar\\": "src"
+            "DPoulson\\LaravelCalendar\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Acaronlex\\LaravelCalendar\\ServiceProvider"
+                "DPoulson\\LaravelCalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "Acaronlex\\LaravelCalendar\\Facades\\Calendar"
+                "Calendar": "DPoulson\\LaravelCalendar\\Facades\\Calendar"
             }
         }
     },
